@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "304357366451",
+    "firebase_url": "https://wholesack.firebaseio.com",
+    "project_id": "wholesack",
+    "storage_bucket": "wholesack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304357366451:android:567943009d5265cdad2ec6",
+        "android_client_info": {
+          "package_name": "com.example.wholesack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304357366451-ji2drj7jsujm5qf9fdsvb6j44dq6j8gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE5ci2XKRpujtrTmKw4oE5HglmIPab710"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304357366451-ji2drj7jsujm5qf9fdsvb6j44dq6j8gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

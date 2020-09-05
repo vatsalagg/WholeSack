@@ -8,137 +8,165 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#030303">
 
-
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="270dp"
-        android:layout_height="60dp"
-        android:layout_weight="1"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="SignUp !"
-        android:textColor="#fff"
-        android:textSize="35dp"
-        android:textStyle="bold"
-        card_view:layout_constraintBottom_toTopOf="@+id/cardView"
-        card_view:layout_constraintEnd_toEndOf="parent"
-        card_view:layout_constraintHorizontal_bias="0.858"
-        card_view:layout_constraintStart_toStartOf="parent"
-        card_view:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tv_already_have_an_account"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="77dp"
-        android:layout_marginBottom="45dp"
-        android:text="Already Have An Acoount? Login!"
-        android:textColor="#fff"
-        android:textSize="20dp"
-        card_view:layout_constraintBottom_toBottomOf="parent"
-        card_view:layout_constraintStart_toStartOf="parent"
-        card_view:layout_constraintTop_toBottomOf="@+id/cardView"
-        card_view:layout_constraintVertical_bias="0.0" />
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
-        android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="450dp"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:background="#fff"
-        android:elevation="3dp"
-        card_view:cardCornerRadius="20dp"
-        card_view:cardElevation="10dp"
-        card_view:cardUseCompatPadding="true"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="140dp">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#030303"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="51dp">
 
 
             <EditText
-                android:id="@+id/sign_up_number"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
+                android:id="@+id/editText3"
+                android:layout_width="224dp"
+                android:layout_height="71dp"
+                android:layout_marginTop="80dp"
+                android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Enter Your Contact Number"
+                android:text="SignUp !"
+                android:textColor="#FFA7A7"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                card_view:layout_constraintBottom_toTopOf="@+id/cardView"
                 card_view:layout_constraintEnd_toEndOf="parent"
-                card_view:layout_constraintHorizontal_bias="1.0"
-                card_view:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="103dp" />
-
-            <EditText
-                android:id="@+id/sign_up_name"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="48dp"
-                android:layout_marginEnd="16dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Enter Your Name"
-                card_view:layout_constraintEnd_toEndOf="parent"
-                card_view:layout_constraintHorizontal_bias="0.0"
+                card_view:layout_constraintHorizontal_bias="0.77"
                 card_view:layout_constraintStart_toStartOf="parent"
                 card_view:layout_constraintTop_toTopOf="parent" />
 
-            <EditText
-                android:id="@+id/sign_up_email"
-                android:layout_width="343dp"
-                android:layout_height="48dp"
-                android:layout_marginTop="16dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Email Id"
-                card_view:layout_constraintEnd_toEndOf="parent"
-                card_view:layout_constraintHorizontal_bias="0.571"
-                card_view:layout_constraintStart_toStartOf="parent"
-                card_view:layout_constraintTop_toBottomOf="@+id/sign_up_number" />
-
-            <EditText
-                android:id="@+id/sign_up_password"
-                android:layout_width="343dp"
-                android:layout_height="49dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Password"
-                card_view:layout_constraintBottom_toBottomOf="parent"
-                card_view:layout_constraintEnd_toEndOf="parent"
-                card_view:layout_constraintStart_toStartOf="parent"
-                card_view:layout_constraintTop_toBottomOf="@+id/sign_up_email"
-                card_view:layout_constraintVertical_bias="0.045" />
-
-            <Button
-                android:id="@+id/sign_up_button"
-                android:layout_width="326dp"
-                android:layout_height="58dp"
-                android:layout_marginStart="141dp"
-                android:layout_marginTop="73dp"
-                android:layout_marginEnd="142dp"
-                android:layout_marginBottom="68dp"
-                android:text="Get Started"
+            <TextView
+                android:id="@+id/tv_already_have_an_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="96dp"
+                android:layout_marginBottom="24dp"
+                android:text="Already Have An Acoount? Login!"
                 android:textColor="#fff"
-                android:background="#C4FF0F0F"
+                android:textSize="15dp"
                 card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="77dp"
+                android:background="#fff"
+                android:elevation="3dp"
+                android:orientation="vertical"
+                card_view:cardCornerRadius="20dp"
+                card_view:cardElevation="10dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:layout_constraintBottom_toTopOf="@+id/tv_already_have_an_account"
                 card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="1.0"
                 card_view:layout_constraintStart_toStartOf="parent"
-                card_view:layout_constraintTop_toBottomOf="@+id/sign_up_password" />
+                card_view:layout_constraintTop_toBottomOf="@+id/editText3">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="441dp">
+
+
+                    <EditText
+                        android:id="@+id/sign_up_number"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="19dp"
+                        android:layout_marginEnd="16dp"
+                        android:ems="10"
+                        android:hint="Enter Your Whatsapp Number"
+                        android:inputType="textPersonName"
+                        card_view:layout_constraintEnd_toEndOf="parent"
+                        card_view:layout_constraintHorizontal_bias="0.0"
+                        card_view:layout_constraintStart_toStartOf="parent"
+                        card_view:layout_constraintTop_toBottomOf="@+id/sign_up_name" />
+
+                    <EditText
+                        android:id="@+id/sign_up_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:ems="10"
+                        android:hint="Enter Your Name"
+                        android:inputType="textPersonName"
+                        card_view:layout_constraintBottom_toBottomOf="parent"
+                        card_view:layout_constraintEnd_toEndOf="parent"
+                        card_view:layout_constraintHorizontal_bias="0.0"
+                        card_view:layout_constraintStart_toStartOf="parent"
+                        card_view:layout_constraintTop_toTopOf="parent"
+                        card_view:layout_constraintVertical_bias="0.093" />
+
+                    <EditText
+                        android:id="@+id/sign_up_email"
+                        android:layout_width="295dp"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="24dp"
+                        android:ems="10"
+                        android:hint="Email Id"
+                        android:inputType="textPersonName"
+                        card_view:layout_constraintEnd_toEndOf="parent"
+                        card_view:layout_constraintHorizontal_bias="0.545"
+                        card_view:layout_constraintStart_toStartOf="parent"
+                        card_view:layout_constraintTop_toBottomOf="@+id/sign_up_number" />
+
+                    <Button
+                        android:id="@+id/sign_up_button"
+                        android:layout_width="266dp"
+                        android:layout_height="59dp"
+                        android:background="#BAE986"
+                        android:padding="20dp"
+                        android:text="Get Started"
+                        android:textColor="#4CAF50"
+                        card_view:layout_constraintBottom_toBottomOf="parent"
+                        card_view:layout_constraintEnd_toEndOf="parent"
+                        card_view:layout_constraintHorizontal_bias="0.495"
+                        card_view:layout_constraintStart_toStartOf="parent"
+                        card_view:layout_constraintTop_toBottomOf="@+id/sign_up_password"
+                        card_view:layout_constraintVertical_bias="0.866" />
+
+                    <EditText
+                        android:id="@+id/sign_up_confirm_password"
+                        android:layout_width="302dp"
+                        android:layout_height="43dp"
+                        android:ems="10"
+                        android:hint="Confirm Password"
+                        android:inputType="textPassword"
+                        card_view:layout_constraintBottom_toTopOf="@+id/sign_up_button"
+                        card_view:layout_constraintEnd_toEndOf="parent"
+                        card_view:layout_constraintHorizontal_bias="0.583"
+                        card_view:layout_constraintStart_toStartOf="parent"
+                        card_view:layout_constraintTop_toBottomOf="@+id/sign_up_password"
+                        card_view:layout_constraintVertical_bias="0.402" />
+
+                    <EditText
+                        android:id="@+id/sign_up_password"
+                        android:layout_width="300dp"
+                        android:layout_height="47dp"
+                        android:layout_marginStart="47dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="79dp"
+                        android:ems="10"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        card_view:layout_constraintEnd_toEndOf="parent"
+                        card_view:layout_constraintHorizontal_bias="0.321"
+                        card_view:layout_constraintStart_toStartOf="parent"
+                        card_view:layout_constraintTop_toBottomOf="@+id/sign_up_email" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
-    </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     </FrameLayout>
